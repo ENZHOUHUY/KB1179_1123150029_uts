@@ -70,11 +70,13 @@ class Login extends StatelessWidget {
                       const Icon(
                         Icons.lock_outline,
                         size: 24.0,
+                        color: Colors.red,
                       ),
                       suffixIcon: 
                       const Icon(
                         Icons.visibility_off_outlined,
                         size: 24.0,
+                        color: Colors.red,
                       ),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10.0),
