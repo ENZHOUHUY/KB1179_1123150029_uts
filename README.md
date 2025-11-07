@@ -3,3 +3,10 @@
 <img width="321" height="559" alt="e6" src="https://github.com/user-attachments/assets/3c2f42bb-ff60-4368-b3f9-ae71336eee8c" />
 <img width="315" height="561" alt="e7" src="https://github.com/user-attachments/assets/98daf6bf-5ff4-4b1f-b812-e27178ae9586" />
 
+## NAMA : MOHAMAD ENZHO YULIAWAN
+## NIM : 1123150029
+## CARA MENJANKAN PROJECT
+1. Ketik flutter run di terminal
+2. pilih browser yang ingin dipakai
+## KENDALA
+saat upload gambar di readme
