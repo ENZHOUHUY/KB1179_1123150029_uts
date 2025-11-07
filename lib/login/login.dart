@@ -135,7 +135,7 @@ class Login extends StatelessWidget {
                       Padding(
                         padding: 
                         EdgeInsets.symmetric(horizontal: 10),
-                        child: Text('atau', 
+                        child: Text('or', 
                         style: TextStyle(
                           color: Colors.red
                         ),
@@ -155,7 +155,7 @@ class Login extends StatelessWidget {
                         Icons.g_mobiledata,
                         color: Colors.red,
                       ),
-                      label: Text("Login dengan Google",
+                      label: Text("Login with Google",
                       style: TextStyle(
                         color: Colors.red,
                       ),
@@ -167,6 +167,22 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  SizedBox(height: 20,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Doesn\'t Have Account ? ', 
+                      style: TextStyle(
+                        color: Colors.grey.shade500
+                      ),
+                      ),
+                      Text('Register', 
+                      style: TextStyle(
+                        color: Colors.red,
+                      ),)
+                    ],
+                  )
 
                 ],
               ),
