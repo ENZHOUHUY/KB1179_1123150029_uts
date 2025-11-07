@@ -92,6 +92,18 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(height: 10,),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                        onPressed: () {}, 
+                        child: Text('Forgot Password ?', 
+                        style: TextStyle(
+                          color: Colors.red
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
