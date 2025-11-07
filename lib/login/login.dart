@@ -6,7 +6,7 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red.shade100,
+      backgroundColor: Colors.red.shade50,
             body: Center(
               child: Column(
                 children: [
@@ -42,6 +42,39 @@ class Login extends StatelessWidget {
                         Icons.email,
                         size: 24.0,
                         color: Colors.red,
+                      ),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(color: Colors.red)
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(
+                          color: Colors.red,
+                          width: 2
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 20,),
+                  TextField(
+                    keyboardType: TextInputType.text,
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      labelText: 'Password',
+                      hintText: 'Masukan Passwod Anda',
+                      prefixIcon: 
+                      const Icon(
+                        Icons.lock_outline,
+                        size: 24.0,
+                      ),
+                      suffixIcon: 
+                      const Icon(
+                        Icons.visibility_off_outlined,
+                        size: 24.0,
                       ),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10.0),
