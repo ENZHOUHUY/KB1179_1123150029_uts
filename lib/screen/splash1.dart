@@ -9,8 +9,10 @@ class SplashScreen1 extends StatelessWidget {
             appBar: AppBar(
               actions: const [],
             ),
-            body: SingleChildScrollView(
+            body: Center(       
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
                     margin: EdgeInsets.only(bottom: 25),
@@ -23,6 +25,12 @@ class SplashScreen1 extends StatelessWidget {
                         image: AssetImage("assets/images/e1.jpeg"),
                         fit: BoxFit.cover
                         ),
+                    ),
+                  ),
+                  Text('Welcome',
+                  style: TextStyle(
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold
                     ),
                   ),
                 ],
