@@ -106,6 +106,29 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  SizedBox(height: 10,),
+                  Container(
+                    child: SizedBox(
+                      height: 40,
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: (){
+                            
+                        }, 
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.red,
+                        ),
+                        child: Text('Login',
+                        style: TextStyle(
+                          color: Colors.white
+                        ),
+                        ),
+                      ),
+                    ),
+                  ),
+
+
                 ],
               ),
             ),
