@@ -1,4 +1,4 @@
-![Alt text](https://github.com/ENZHOUHUY/KB1179_1123150029_uts/assets/images/e4.jpeg?raw=true)
+![Deskripsi Gambar](/assets/images/e4.jpeg)
 ![Alt text](./assets/images/e5.jpeg)
 ![Alt text](assets/images/e6.jpeg)
 ![Alt text](assets/images/e7.jpeg)
