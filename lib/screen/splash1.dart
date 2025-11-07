@@ -33,6 +33,15 @@ class SplashScreen1 extends StatelessWidget {
                       fontWeight: FontWeight.bold
                     ),
                   ),
+                  SizedBox(height: 10,),
+                  Text('Project\n Ulangan Tengah Semester Mohamad Enzho Yuliawan',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.normal,
+                      color: Colors.red
+                    ),
+                  ),
                 ],
               ),
             ),
