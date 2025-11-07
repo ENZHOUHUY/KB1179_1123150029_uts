@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150029_uts/screen/splash2.dart';
 
-class SplashScreen1 extends StatelessWidget {
-  const SplashScreen1({super.key});
+class SplashScreen2 extends StatelessWidget {
+  const SplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +22,7 @@ class SplashScreen1 extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.red,
                       image: DecorationImage(
-                        image: AssetImage("assets/images/e1.jpeg"),
+                        image: AssetImage("assets/images/e2.jpeg"),
                         fit: BoxFit.cover
                         ),
                     ),
@@ -35,7 +34,7 @@ class SplashScreen1 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10,),
-                  Text('Project\n Ulangan Tengah Semester Mohamad Enzho Yuliawan',
+                  Text('Higlight yang menarik akan segera tiba',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
@@ -52,7 +51,7 @@ class SplashScreen1 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red
+                          color: Colors.grey
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -61,7 +60,7 @@ class SplashScreen1 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.grey
+                          color: Colors.red
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -83,10 +82,6 @@ class SplashScreen1 extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                          Navigator.push(
-                              context, 
-                              MaterialPageRoute(builder: (context) => const SplashScreen2()),
-                            );
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.red,
