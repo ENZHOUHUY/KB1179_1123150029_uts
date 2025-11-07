@@ -6,6 +6,7 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red.shade100,
             body: Center(
               child: Column(
                 children: [
@@ -22,7 +23,13 @@ class Login extends StatelessWidget {
                     fontWeight: FontWeight.bold
                     ),
                   ),
-                  
+                  SizedBox(height: 5,),
+                  Text("Please Login to Enter the Application", 
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.red
+                  ),
+                  ),
                 ],
               ),
             ),
