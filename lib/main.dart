@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1123150029_uts/screen/splash1.dart';
 
 void main() {
-  runApp(const Home());
+  runApp(Home());
 }
 
 class Home extends StatelessWidget {
@@ -18,6 +19,7 @@ class Home extends StatelessWidget {
           seedColor: Colors.red
         ),
       ),
+      home: SplashScreen1(),
     );
   }
 }
