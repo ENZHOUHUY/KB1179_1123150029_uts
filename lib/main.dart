@@ -10,7 +10,14 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+      debugShowCheckedModeBanner: false,
+      title: 'NIM : 1123150029, Mohamad Enzho Yuliawan',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.red
+        ),
+      ),
     );
   }
 }
