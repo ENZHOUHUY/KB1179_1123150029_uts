@@ -28,7 +28,36 @@ class Login extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 15,
                     color: Colors.red
+                    ),
                   ),
+                  SizedBox(height: 20,),
+                  TextField(
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: InputDecoration(
+                      labelText: 'Email',
+                      hintText: '1123150029@global.ac.id',
+                      fillColor: Colors.red,
+                      prefixIcon: 
+                      const Icon(
+                        Icons.email,
+                        size: 24.0,
+                        color: Colors.red,
+                      ),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(color: Colors.red)
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(
+                          color: Colors.red,
+                          width: 2
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               ),
