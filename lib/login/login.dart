@@ -6,9 +6,6 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            appBar: AppBar(
-              actions: const [],
-            ),
             body: Center(
               child: Column(
                 children: [
@@ -18,9 +15,14 @@ class Login extends StatelessWidget {
                     size: 50,
                     color: Colors.red,
                   ),
-                  Container(
-                    
+                  SizedBox(height: 20,),
+                  Text("Welcome", 
+                  style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold
+                    ),
                   ),
+                  
                 ],
               ),
             ),
